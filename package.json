@@ -1,0 +1,24 @@
+{
+  "name": "pyezpulse-whatsapp-gateway",
+  "version": "1.0.0",
+  "description": "Zero-Cost 24/7 Cloud WhatsApp Gateway for PyezPulse Auto Sender powered by Baileys",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "gateway",
+    "pyezpulse"
+  ],
+  "author": "Pyezen Electronics",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4"
+  }
+}
